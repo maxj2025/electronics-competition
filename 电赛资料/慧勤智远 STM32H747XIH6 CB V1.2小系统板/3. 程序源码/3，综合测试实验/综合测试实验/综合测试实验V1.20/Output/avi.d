@@ -1,0 +1,16 @@
+..\..\output\avi.o: ..\..\Middlewares\MJPEG\avi.c
+..\..\output\avi.o: ..\..\Middlewares\./MJPEG/avi.h
+..\..\output\avi.o: ..\..\Drivers\./SYSTEM/sys/sys.h
+..\..\output\avi.o: ..\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include\stm32h7xx.h
+..\..\output\avi.o: ..\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include\stm32h747xx.h
+..\..\output\avi.o: ..\..\Drivers\CMSIS\Include\core_cm7.h
+..\..\output\avi.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\avi.o: ..\..\Drivers\CMSIS\Include\cmsis_version.h
+..\..\output\avi.o: ..\..\Drivers\CMSIS\Include\cmsis_compiler.h
+..\..\output\avi.o: ..\..\Drivers\CMSIS\Include\cmsis_armcc.h
+..\..\output\avi.o: ..\..\Drivers\CMSIS\Include\mpu_armv7.h
+..\..\output\avi.o: ..\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include\system_stm32h7xx.h
+..\..\output\avi.o: ..\..\Middlewares\./MJPEG/mjpeg.h
+..\..\output\avi.o: ..\..\Drivers\./BSP/JPEGCODEC/jpegcodec.h
+..\..\output\avi.o: ..\..\Drivers\./SYSTEM/usart/usart.h
+..\..\output\avi.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

@@ -1,0 +1,3 @@
+[submodule "deps/isotp-c"]
+	path = deps/isotp-c
+	url = https://github.com/openxc/isotp-c

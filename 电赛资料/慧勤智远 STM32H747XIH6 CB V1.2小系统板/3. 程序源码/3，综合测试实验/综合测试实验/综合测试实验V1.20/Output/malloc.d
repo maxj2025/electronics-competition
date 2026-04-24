@@ -1,0 +1,12 @@
+..\..\output\malloc.o: ..\..\Middlewares\MALLOC\malloc.c
+..\..\output\malloc.o: ..\..\Middlewares\./MALLOC/malloc.h
+..\..\output\malloc.o: ..\..\Drivers\./SYSTEM/sys/sys.h
+..\..\output\malloc.o: ..\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include\stm32h7xx.h
+..\..\output\malloc.o: ..\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include\stm32h747xx.h
+..\..\output\malloc.o: ..\..\Drivers\CMSIS\Include\core_cm7.h
+..\..\output\malloc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\malloc.o: ..\..\Drivers\CMSIS\Include\cmsis_version.h
+..\..\output\malloc.o: ..\..\Drivers\CMSIS\Include\cmsis_compiler.h
+..\..\output\malloc.o: ..\..\Drivers\CMSIS\Include\cmsis_armcc.h
+..\..\output\malloc.o: ..\..\Drivers\CMSIS\Include\mpu_armv7.h
+..\..\output\malloc.o: ..\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include\system_stm32h7xx.h

@@ -1,0 +1,15 @@
+..\..\output\myffunicode.o: ..\..\Middlewares\FATFS\exfuns\myffunicode.c
+..\..\output\myffunicode.o: ..\..\Middlewares\./TEXT/fonts.h
+..\..\output\myffunicode.o: ..\..\Drivers\./SYSTEM/sys/sys.h
+..\..\output\myffunicode.o: ..\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include\stm32h7xx.h
+..\..\output\myffunicode.o: ..\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include\stm32h747xx.h
+..\..\output\myffunicode.o: ..\..\Drivers\CMSIS\Include\core_cm7.h
+..\..\output\myffunicode.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\myffunicode.o: ..\..\Drivers\CMSIS\Include\cmsis_version.h
+..\..\output\myffunicode.o: ..\..\Drivers\CMSIS\Include\cmsis_compiler.h
+..\..\output\myffunicode.o: ..\..\Drivers\CMSIS\Include\cmsis_armcc.h
+..\..\output\myffunicode.o: ..\..\Drivers\CMSIS\Include\mpu_armv7.h
+..\..\output\myffunicode.o: ..\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include\system_stm32h7xx.h
+..\..\output\myffunicode.o: ..\..\Middlewares\./FATFS/source/ff.h
+..\..\output\myffunicode.o: ..\..\Middlewares\./FATFS/source/ffconf.h
+..\..\output\myffunicode.o: ..\..\Drivers\./BSP/NORFLASH/norflash.h

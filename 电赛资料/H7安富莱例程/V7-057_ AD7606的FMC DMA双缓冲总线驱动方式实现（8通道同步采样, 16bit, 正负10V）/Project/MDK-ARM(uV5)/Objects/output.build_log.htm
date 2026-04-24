@@ -1,0 +1,391 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.37.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: null 473065664@qq.com
+null
+User-based license: Keil MDK Community (non-commercial free of charge)
+Valid until: Jun 1 2033. Cached until: Apr 2 2026
+ 
+Tool Versions:
+Toolchain:       Keil MDK Community (non-commercial free of charge  Version: 5.37.0.0
+Toolchain Path:  D:\Keil5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.18
+Assembler:       Armasm.exe V6.18
+Linker/Locator:  ArmLink.exe V6.18
+Library Manager: ArmAr.exe V6.18
+Hex Converter:   FromElf.exe V6.18
+CPU DLL:         SARMCM3.DLL V5.37.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      Segger\JL2CM3.dll V2.99.42.0
+Dialog DLL:      TCM.DLL V1.56.1.0
+ 
+<h2>Project:</h2>
+D:\Desktop_Floder\µçÈü×ÊÁÏ\°²¸»À³Àý³Ì\V7-057_ AD7606µÄFMC DMAË«»º³å×ÜÏßÇý¶¯·½Ê½ÊµÏÖ£¨8Í¨µÀÍ¬²½²ÉÑù, 16bit, Õý¸º10V£©\Project\MDK-ARM(uV5)\project.uvprojx
+Project File Date:  03/26/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.18', folder: 'D:\Keil5\ARM\ARMCLANG\Bin'
+Rebuild target 'Flash'
+assembling startup_stm32h743xx.s...
+../../User/main.c(46): warning: In file included from...
+../../User/bsp\bsp.h(18): warning: '_BSP_H_' is used as a header guard here, followed by #define of a different macro [-Wheader-guard]
+#ifndef _BSP_H_
+        ^~~~~~~
+../../User/bsp\bsp.h(19): note: '_BSP_H' is defined here; did you mean '_BSP_H_'?
+#define _BSP_H
+        ^~~~~~
+        _BSP_H_
+../../User/main.c(95): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+                printf("\r\nCPU : STM32H743XIH6, BGA240, <D6><F7>Æµ: %dMHz\r\n", SystemCoreClock / 1000000);
+                                                         ^~~~~~~~
+../../User/main.c(101): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+        printf("* <C0><FD><B3><CC><C3><FB><B3><C6>   : %s\r\n", EXAMPLE_NAME);  /* <B4><F2>Ó¡<C0><FD><B3><CC><C3><FB><B3><C6> */
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../User/main.c(101): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+        printf("* <C0><FD><B3><CC><C3><FB><B3><C6>   : %s\r\n", EXAMPLE_NAME);  /* <B4><F2>Ó¡<C0><FD><B3><CC><C3><FB><B3><C6> */
+                                                                ^~~~~~~~~~~~
+../../User/main.c(51): note: expanded from macro 'EXAMPLE_NAME'
+#define EXAMPLE_NAME    "V7-AD7606<B5><C4>FMC DMAË«<BB><BA><B3><E5><D7><DC><CF><DF><C7><FD><B6><AF><B7><BD>Ê½Êµ<CF>Ö£<A8>8Í¨<B5><C0>Í¬<B2><BD><B2><C9><D1><F9>, 16bit, <D5><FD><B8><BA>10V<A3><A9>"
+                                  ^~~~~~~~        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         ~~~~~~~~~~~~~~~~   ~~~~~~~~
+../../User/main.c(102): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+        printf("* <C0><FD><B3>Ì°æ±¾   : %s\r\n", DEMO_VER);              /* <B4><F2>Ó¡<C0><FD><B3>Ì°æ±¾ */
+                  ^~~~~~~~~~~~
+../../User/main.c(103): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+        printf("* <B7><A2><B2><BC><C8><D5><C6><DA>   : %s\r\n", EXAMPLE_DATE);  /* <B4><F2>Ó¡<C0><FD><B3><CC><C8><D5><C6><DA> */
+                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../User/main.c(106): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+        printf("* HAL<BF><E2><B0>æ±¾  : V1.7.0 (STM32H7xx HAL Driver)\r\n");
+                     ^~~~~~~~~~~~
+../../User/main.c(109): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+        printf("* <CD><FA><CD><FA>  : armfly\r\n");
+                  ^~~~~~~~~~~~~~~~
+../../User/main.c(111): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+        printf("* <U+03A2><D0>Å¹<AB><D6>Úº<C5>: armfly_com \r\n");
+                          ^~~~ ~~~~~~~~ ~~~~
+../../User/main.c(112): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+        printf("* <CC>Ô±<A6><B5><EA>: armfly.taobao.com\r\n");
+                  ^~~~ ~~~~~~~~~~~~
+../../User/main.c(113): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+        printf("* Copyright www.armfly.com <B0><B2><B8><BB><C0><B3><B5><E7><D7><D3>\r\n");
+                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+11 warnings generated.
+compiling main.c...
+../../User/bsp/bsp.c(17): warning: In file included from...
+../../User/bsp/bsp.h(18): warning: '_BSP_H_' is used as a header guard here, followed by #define of a different macro [-Wheader-guard]
+#ifndef _BSP_H_
+        ^~~~~~~
+../../User/bsp/bsp.h(19): note: '_BSP_H' is defined here; did you mean '_BSP_H_'?
+#define _BSP_H
+        ^~~~~~
+        _BSP_H_
+1 warning generated.
+compiling bsp.c...
+../../User/demo_fmc_ad7606.c(20): warning: In file included from...
+../../User/bsp\bsp.h(18): warning: '_BSP_H_' is used as a header guard here, followed by #define of a different macro [-Wheader-guard]
+#ifndef _BSP_H_
+        ^~~~~~~
+../../User/bsp\bsp.h(19): note: '_BSP_H' is defined here; did you mean '_BSP_H_'?
+#define _BSP_H
+        ^~~~~~
+        _BSP_H_
+../../User/demo_fmc_ad7606.c(39): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+        "<CE><U+07B9><FD><B2><C9><D1><F9>, <D7><EE><B8><DF>Ö§<B3>Ö²<C9><D1><F9><C2><CA>200Ksps",
+         ^~~~        ~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../User/demo_fmc_ad7606.c(40): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+        "2<B1><B6><B9><FD><B2><C9><D1><F9>, <D7><EE><B8><DF>Ö§<B3>Ö²<C9><D1><F9><C2><CA>100Ksps",
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../User/demo_fmc_ad7606.c(41): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+        "4<B1><B6><B9><FD><B2><C9><D1><F9>, <D7><EE><B8><DF>Ö§<B3>Ö²<C9><D1><F9><C2><CA>50Ksps",
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../User/demo_fmc_ad7606.c(42): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+        "8<B1><B6><B9><FD><B2><C9><D1><F9>, <D7><EE><B8><DF>Ö§<B3>Ö²<C9><D1><F9><C2><CA>25Ksps",
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../User/demo_fmc_ad7606.c(43): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+        "16<B1><B6><B9><FD><B2><C9><D1><F9>, <D7><EE><B8><DF>Ö§<B3>Ö²<C9><D1><F9><C2><CA>12.5Ksps",
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../User/demo_fmc_ad7606.c(44): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+        "32<B1><B6><B9><FD><B2><C9><D1><F9>, <D7><EE><B8><DF>Ö§<B3>Ö²<C9><D1><F9><C2><CA>6.25Ksps",
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../User/demo_fmc_ad7606.c(45): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+        "64<B1><B6><B9><FD><B2><C9><D1><F9>, <D7><EE><B8><DF>Ö§<B3>Ö²<C9><D1><F9><C2><CA>3.125Ksps",
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../User/demo_fmc_ad7606.c(74): error: expected parameter declarator
+extern __align(16) int16_t g_sAd7606Buf[];   
+               ^
+../../User/demo_fmc_ad7606.c(74): error: expected ')'
+../../User/demo_fmc_ad7606.c(74): note: to match this '('
+extern __align(16) int16_t g_sAd7606Buf[];   
+              ^
+../../User/demo_fmc_ad7606.c(74): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+extern __align(16) int16_t g_sAd7606Buf[];   
+~~~~~~ ^
+../../User/demo_fmc_ad7606.c(74): error: expected ';' after top level declarator
+extern __align(16) int16_t g_sAd7606Buf[];   
+                  ^
+                  ;
+../../User/demo_fmc_ad7606.c(297): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+        printf("<B2><D9><D7><F7><CC><E1>Ê¾:\r\n");
+                ^~~~~~~~~~~~~~~~~~~~~~~~
+../../User/demo_fmc_ad7606.c(298): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+        printf("1. <C6><F4><B6><AF>Ò»<B8><F6><D7>Ô¶<AF><D6><D8>×°<C8><ED><BC><FE><B6><A8>Ê±<C6><F7><A3><AC>Ã¿100ms<B7><AD>×ªÒ»<B4><CE>LED2\r\n");
+                   ^~~~~~~~~~~~~~~~ ~~~~~~~~~~~~ ~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~      ~~~~~~~~  ~~~~~~~~
+../../User/demo_fmc_ad7606.c(299): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+        printf("2. K1<BC><FC>       : <C7>Ð»<BB><C1><BF><B3><CC>(5V<BB><F2>10V)\r\n");
+                     ^~~~~~~~         ~~~~ ~~~~~~~~~~~~~~~~~~~~   ~~~~~~~~
+../../User/demo_fmc_ad7606.c(300): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+        printf("3. K2<BC><FC>       : <BD><F8><C8><EB>FMC DMA<B9><A4><D7><F7><B7><BD>Ê½\r\n");
+                     ^~~~~~~~         ~~~~~~~~~~~~~~~~       ~~~~~~~~~~~~~~~~~~~~~~~~
+../../User/demo_fmc_ad7606.c(301): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+        printf("4. K3<BC><FC>       : Í£Ö¹FMA DMA<B2>É¼<AF>\r\n");
+                     ^~~~~~~~                ~~~~ ~~~~
+../../User/demo_fmc_ad7606.c(302): warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+        printf("5. Ò¡<B8><CB><C9><CF><CF>Â¼<FC> : <B5><F7><BD>Ú¹<FD><B2><C9><D1><F9><B2><CE><CA><FD>\r\n");
+                    ^~~~~~~~~~~~~~~~~~~~ ~~~~   ~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../User/demo_fmc_ad7606.c(74): warning: tentative array definition assumed to have one element
+extern __align(16) int16_t g_sAd7606Buf[];   
+                           ^
+16 warnings and 3 errors generated.
+compiling demo_fmc_ad7606.c...
+../../User/bsp/src/bsp_beep.c(19): warning: In file included from...
+../../User/bsp\bsp.h(18): warning: '_BSP_H_' is used as a header guard here, followed by #define of a different macro [-Wheader-guard]
+#ifndef _BSP_H_
+        ^~~~~~~
+../../User/bsp\bsp.h(19): note: '_BSP_H' is defined here; did you mean '_BSP_H_'?
+#define _BSP_H
+        ^~~~~~
+        _BSP_H_
+1 warning generated.
+compiling bsp_beep.c...
+../../User/bsp/src/bsp_spi_bus.c(21): warning: In file included from...
+../../User/bsp\bsp.h(18): warning: '_BSP_H_' is used as a header guard here, followed by #define of a different macro [-Wheader-guard]
+#ifndef _BSP_H_
+        ^~~~~~~
+../../User/bsp\bsp.h(19): note: '_BSP_H' is defined here; did you mean '_BSP_H_'?
+#define _BSP_H
+        ^~~~~~
+        _BSP_H_
+1 warning generated.
+compiling bsp_spi_bus.c...
+../../User/bsp/src/bsp_fmcdma_ad7606.c(17): warning: In file included from...
+../../User/bsp\bsp.h(18): warning: '_BSP_H_' is used as a header guard here, followed by #define of a different macro [-Wheader-guard]
+#ifndef _BSP_H_
+        ^~~~~~~
+../../User/bsp\bsp.h(19): note: '_BSP_H' is defined here; did you mean '_BSP_H_'?
+#define _BSP_H
+        ^~~~~~
+        _BSP_H_
+../../User/bsp/src/bsp_fmcdma_ad7606.c(75): error: expected parameter declarator
+__align(16) int16_t g_sAd7606Buf[AD7606_BUFSIZE];   
+        ^
+../../User/bsp/src/bsp_fmcdma_ad7606.c(75): error: expected ')'
+../../User/bsp/src/bsp_fmcdma_ad7606.c(75): note: to match this '('
+__align(16) int16_t g_sAd7606Buf[AD7606_BUFSIZE];   
+       ^
+../../User/bsp/src/bsp_fmcdma_ad7606.c(75): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+__align(16) int16_t g_sAd7606Buf[AD7606_BUFSIZE];   
+^
+../../User/bsp/src/bsp_fmcdma_ad7606.c(75): error: expected ';' after top level declarator
+__align(16) int16_t g_sAd7606Buf[AD7606_BUFSIZE];   
+           ^
+           ;
+2 warnings and 3 errors generated.
+compiling bsp_fmcdma_ad7606.c...
+compiling stm32h7xx_hal_uart.c...
+../../User/bsp/src/bsp_fmc_io.c(18): warning: In file included from...
+../../User/bsp\bsp.h(18): warning: '_BSP_H_' is used as a header guard here, followed by #define of a different macro [-Wheader-guard]
+#ifndef _BSP_H_
+        ^~~~~~~
+../../User/bsp\bsp.h(19): note: '_BSP_H' is defined here; did you mean '_BSP_H_'?
+#define _BSP_H
+        ^~~~~~
+        _BSP_H_
+1 warning generated.
+compiling bsp_fmc_io.c...
+../../User/bsp/src/bsp_uart_fifo.c(26): warning: In file included from...
+../../User/bsp\bsp.h(18): warning: '_BSP_H_' is used as a header guard here, followed by #define of a different macro [-Wheader-guard]
+#ifndef _BSP_H_
+        ^~~~~~~
+../../User/bsp\bsp.h(19): note: '_BSP_H' is defined here; did you mean '_BSP_H_'?
+#define _BSP_H
+        ^~~~~~
+        _BSP_H_
+1 warning generated.
+compiling bsp_uart_fifo.c...
+../../User/bsp/src/bsp_dwt.c(18): warning: In file included from...
+../../User/bsp\bsp.h(18): warning: '_BSP_H_' is used as a header guard here, followed by #define of a different macro [-Wheader-guard]
+#ifndef _BSP_H_
+        ^~~~~~~
+../../User/bsp\bsp.h(19): note: '_BSP_H' is defined here; did you mean '_BSP_H_'?
+#define _BSP_H
+        ^~~~~~
+        _BSP_H_
+1 warning generated.
+compiling bsp_dwt.c...
+compiling stm32h7xx_hal_rcc.c...
+compiling stm32h7xx_hal_cortex.c...
+../../User/bsp/src/bsp_key.c(26): warning: In file included from...
+../../User/bsp\bsp.h(18): warning: '_BSP_H_' is used as a header guard here, followed by #define of a different macro [-Wheader-guard]
+#ifndef _BSP_H_
+        ^~~~~~~
+../../User/bsp\bsp.h(19): note: '_BSP_H' is defined here; did you mean '_BSP_H_'?
+#define _BSP_H
+        ^~~~~~
+        _BSP_H_
+1 warning generated.
+compiling bsp_key.c...
+../../User/bsp/src/bsp_spi_dac8562.c(19): warning: In file included from...
+../../User/bsp\bsp.h(18): warning: '_BSP_H_' is used as a header guard here, followed by #define of a different macro [-Wheader-guard]
+#ifndef _BSP_H_
+        ^~~~~~~
+../../User/bsp\bsp.h(19): note: '_BSP_H' is defined here; did you mean '_BSP_H_'?
+#define _BSP_H
+        ^~~~~~
+        _BSP_H_
+1 warning generated.
+compiling bsp_spi_dac8562.c...
+../../User/bsp/src/bsp_cpu_flash.c(19): warning: In file included from...
+../../User/bsp\bsp.h(18): warning: '_BSP_H_' is used as a header guard here, followed by #define of a different macro [-Wheader-guard]
+#ifndef _BSP_H_
+        ^~~~~~~
+../../User/bsp\bsp.h(19): note: '_BSP_H' is defined here; did you mean '_BSP_H_'?
+#define _BSP_H
+        ^~~~~~
+        _BSP_H_
+1 warning generated.
+compiling bsp_cpu_flash.c...
+../../User/bsp/src/bsp_hrtim_pwm.c(17): warning: In file included from...
+../../User/bsp\bsp.h(18): warning: '_BSP_H_' is used as a header guard here, followed by #define of a different macro [-Wheader-guard]
+#ifndef _BSP_H_
+        ^~~~~~~
+../../User/bsp\bsp.h(19): note: '_BSP_H' is defined here; did you mean '_BSP_H_'?
+#define _BSP_H
+        ^~~~~~
+        _BSP_H_
+1 warning generated.
+compiling bsp_hrtim_pwm.c...
+../../User/bsp/src/bsp_timer.c(27): warning: In file included from...
+../../User/bsp\bsp.h(18): warning: '_BSP_H_' is used as a header guard here, followed by #define of a different macro [-Wheader-guard]
+#ifndef _BSP_H_
+        ^~~~~~~
+../../User/bsp\bsp.h(19): note: '_BSP_H' is defined here; did you mean '_BSP_H_'?
+#define _BSP_H
+        ^~~~~~
+        _BSP_H_
+1 warning generated.
+compiling bsp_timer.c...
+../../User/bsp/src/bsp_led.c(18): warning: In file included from...
+../../User/bsp\bsp.h(18): warning: '_BSP_H_' is used as a header guard here, followed by #define of a different macro [-Wheader-guard]
+#ifndef _BSP_H_
+        ^~~~~~~
+../../User/bsp\bsp.h(19): note: '_BSP_H' is defined here; did you mean '_BSP_H_'?
+#define _BSP_H
+        ^~~~~~
+        _BSP_H_
+1 warning generated.
+compiling bsp_led.c...
+../../User/bsp/src/bsp_fmc_sdram.c(18): warning: In file included from...
+../../User/bsp\bsp.h(18): warning: '_BSP_H_' is used as a header guard here, followed by #define of a different macro [-Wheader-guard]
+#ifndef _BSP_H_
+        ^~~~~~~
+../../User/bsp\bsp.h(19): note: '_BSP_H' is defined here; did you mean '_BSP_H_'?
+#define _BSP_H
+        ^~~~~~
+        _BSP_H_
+1 warning generated.
+compiling bsp_fmc_sdram.c...
+../../User/bsp/src/bsp_tim_pwm.c(624): warning: In file included from...
+../../User/bsp\bsp.h(18): warning: '_BSP_H_' is used as a header guard here, followed by #define of a different macro [-Wheader-guard]
+#ifndef _BSP_H_
+        ^~~~~~~
+../../User/bsp\bsp.h(19): note: '_BSP_H' is defined here; did you mean '_BSP_H_'?
+#define _BSP_H
+        ^~~~~~
+        _BSP_H_
+1 warning generated.
+compiling bsp_tim_pwm.c...
+../../User/bsp/src/bsp_spi_dac8501.c(18): warning: In file included from...
+../../User/bsp\bsp.h(18): warning: '_BSP_H_' is used as a header guard here, followed by #define of a different macro [-Wheader-guard]
+#ifndef _BSP_H_
+        ^~~~~~~
+../../User/bsp\bsp.h(19): note: '_BSP_H' is defined here; did you mean '_BSP_H_'?
+#define _BSP_H
+        ^~~~~~
+        _BSP_H_
+1 warning generated.
+compiling bsp_spi_dac8501.c...
+../../User/bsp/stm32h7xx_it.c(41): warning: In file included from...
+../../User/bsp/bsp.h(18): warning: '_BSP_H_' is used as a header guard here, followed by #define of a different macro [-Wheader-guard]
+#ifndef _BSP_H_
+        ^~~~~~~
+../../User/bsp/bsp.h(19): note: '_BSP_H' is defined here; did you mean '_BSP_H_'?
+#define _BSP_H
+        ^~~~~~
+        _BSP_H_
+1 warning generated.
+compiling stm32h7xx_it.c...
+compiling stm32h7xx_hal_uart_ex.c...
+compiling stm32h7xx_hal_gpio.c...
+compiling stm32h7xx_ll_fmc.c...
+compiling stm32h7xx_hal.c...
+../../User/bsp/src/bsp_user_lib.c(18): warning: In file included from...
+../../User/bsp\bsp.h(18): warning: '_BSP_H_' is used as a header guard here, followed by #define of a different macro [-Wheader-guard]
+#ifndef _BSP_H_
+        ^~~~~~~
+../../User/bsp\bsp.h(19): note: '_BSP_H' is defined here; did you mean '_BSP_H_'?
+#define _BSP_H
+        ^~~~~~
+        _BSP_H_
+1 warning generated.
+compiling bsp_user_lib.c...
+compiling stm32h7xx_hal_dma_ex.c...
+compiling stm32h7xx_hal_rcc_ex.c...
+compiling stm32h7xx_hal_tim_ex.c...
+compiling stm32h7xx_hal_sram.c...
+compiling stm32h7xx_hal_dma.c...
+compiling stm32h7xx_hal_mdma.c...
+compiling stm32h7xx_hal_tim.c...
+compiling stm32h7xx_ll_lpuart.c...
+compiling stm32h7xx_hal_sdram.c...
+assembling HardFaultHandler.S...
+compiling stm32h7xx_hal_pwr.c...
+compiling stm32h7xx_hal_pwr_ex.c...
+compiling stm32h7xx_hal_flash.c...
+compiling stm32h7xx_hal_flash_ex.c...
+compiling stm32h7xx_hal_spi_ex.c...
+compiling system_stm32h7xx.c...
+compiling SEGGER_RTT_printf.c...
+../../User/segger/HardFaultHandlerMDK/SEGGER_HardFaultHandler.c(42): warning: In file included from...
+../../User/bsp\bsp.h(18): warning: '_BSP_H_' is used as a header guard here, followed by #define of a different macro [-Wheader-guard]
+#ifndef _BSP_H_
+        ^~~~~~~
+../../User/bsp\bsp.h(19): note: '_BSP_H' is defined here; did you mean '_BSP_H_'?
+#define _BSP_H
+        ^~~~~~
+        _BSP_H_
+1 warning generated.
+compiling SEGGER_HardFaultHandler.c...
+compiling stm32h7xx_hal_hrtim.c...
+compiling SEGGER_RTT.c...
+compiling stm32h7xx_hal_lptim.c...
+compiling stm32h7xx_hal_spi.c...
+".\Objects\output.axf" - 6 Error(s), 47 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32H7xx_DFP.4.1.3.pack
+                Keil.STM32H7xx_DFP.4.1.3
+                STMicroelectronics STM32H7 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>

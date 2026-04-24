@@ -1,0 +1,13 @@
+..\..\output\adc.o: ..\..\Drivers\BSP\ADC\adc.c
+..\..\output\adc.o: ..\..\Drivers\./BSP/ADC/adc.h
+..\..\output\adc.o: ..\..\Drivers\./SYSTEM/sys/sys.h
+..\..\output\adc.o: ..\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include\stm32h7xx.h
+..\..\output\adc.o: ..\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include\stm32h747xx.h
+..\..\output\adc.o: ..\..\Drivers\CMSIS\Include\core_cm7.h
+..\..\output\adc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\adc.o: ..\..\Drivers\CMSIS\Include\cmsis_version.h
+..\..\output\adc.o: ..\..\Drivers\CMSIS\Include\cmsis_compiler.h
+..\..\output\adc.o: ..\..\Drivers\CMSIS\Include\cmsis_armcc.h
+..\..\output\adc.o: ..\..\Drivers\CMSIS\Include\mpu_armv7.h
+..\..\output\adc.o: ..\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include\system_stm32h7xx.h
+..\..\output\adc.o: ..\..\Drivers\./SYSTEM/delay/delay.h

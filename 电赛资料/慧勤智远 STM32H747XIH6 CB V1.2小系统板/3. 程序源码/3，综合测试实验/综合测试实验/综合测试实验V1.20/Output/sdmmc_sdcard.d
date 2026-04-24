@@ -1,0 +1,15 @@
+..\..\output\sdmmc_sdcard.o: ..\..\Drivers\BSP\SDMMC\sdmmc_sdcard.c
+..\..\output\sdmmc_sdcard.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\sdmmc_sdcard.o: ..\..\Drivers\./SYSTEM/usart/usart.h
+..\..\output\sdmmc_sdcard.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\sdmmc_sdcard.o: ..\..\Drivers\./SYSTEM/sys/sys.h
+..\..\output\sdmmc_sdcard.o: ..\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include\stm32h7xx.h
+..\..\output\sdmmc_sdcard.o: ..\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include\stm32h747xx.h
+..\..\output\sdmmc_sdcard.o: ..\..\Drivers\CMSIS\Include\core_cm7.h
+..\..\output\sdmmc_sdcard.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\sdmmc_sdcard.o: ..\..\Drivers\CMSIS\Include\cmsis_version.h
+..\..\output\sdmmc_sdcard.o: ..\..\Drivers\CMSIS\Include\cmsis_compiler.h
+..\..\output\sdmmc_sdcard.o: ..\..\Drivers\CMSIS\Include\cmsis_armcc.h
+..\..\output\sdmmc_sdcard.o: ..\..\Drivers\CMSIS\Include\mpu_armv7.h
+..\..\output\sdmmc_sdcard.o: ..\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include\system_stm32h7xx.h
+..\..\output\sdmmc_sdcard.o: ..\..\Drivers\./BSP/SDMMC/sdmmc_sdcard.h
