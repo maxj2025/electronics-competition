@@ -1,0 +1,13 @@
+..\..\output\adc3.o: ..\..\Drivers\BSP\ADC\adc3.c
+..\..\output\adc3.o: ..\..\Drivers\./BSP/ADC/adc3.h
+..\..\output\adc3.o: ..\..\Drivers\./SYSTEM/sys/sys.h
+..\..\output\adc3.o: ..\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include\stm32h7xx.h
+..\..\output\adc3.o: ..\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include\stm32h747xx.h
+..\..\output\adc3.o: ..\..\Drivers\CMSIS\Include\core_cm7.h
+..\..\output\adc3.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\adc3.o: ..\..\Drivers\CMSIS\Include\cmsis_version.h
+..\..\output\adc3.o: ..\..\Drivers\CMSIS\Include\cmsis_compiler.h
+..\..\output\adc3.o: ..\..\Drivers\CMSIS\Include\cmsis_armcc.h
+..\..\output\adc3.o: ..\..\Drivers\CMSIS\Include\mpu_armv7.h
+..\..\output\adc3.o: ..\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include\system_stm32h7xx.h
+..\..\output\adc3.o: ..\..\Drivers\./SYSTEM/delay/delay.h

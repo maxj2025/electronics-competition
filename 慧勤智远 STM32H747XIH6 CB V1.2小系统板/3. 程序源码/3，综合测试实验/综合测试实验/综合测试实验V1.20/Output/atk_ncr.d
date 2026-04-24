@@ -1,0 +1,13 @@
+..\..\output\atk_ncr.o: ..\..\Middlewares\ATKNCR\atk_ncr.c
+..\..\output\atk_ncr.o: ..\..\Middlewares\./MALLOC/malloc.h
+..\..\output\atk_ncr.o: ..\..\Drivers\./SYSTEM/sys/sys.h
+..\..\output\atk_ncr.o: ..\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include\stm32h7xx.h
+..\..\output\atk_ncr.o: ..\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include\stm32h747xx.h
+..\..\output\atk_ncr.o: ..\..\Drivers\CMSIS\Include\core_cm7.h
+..\..\output\atk_ncr.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\atk_ncr.o: ..\..\Drivers\CMSIS\Include\cmsis_version.h
+..\..\output\atk_ncr.o: ..\..\Drivers\CMSIS\Include\cmsis_compiler.h
+..\..\output\atk_ncr.o: ..\..\Drivers\CMSIS\Include\cmsis_armcc.h
+..\..\output\atk_ncr.o: ..\..\Drivers\CMSIS\Include\mpu_armv7.h
+..\..\output\atk_ncr.o: ..\..\Drivers\CMSIS\Device\ST\STM32H7xx\Include\system_stm32h7xx.h
+..\..\output\atk_ncr.o: ..\..\Middlewares\./ATKNCR/atk_ncr.h
