@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where pandoc *)",
+      "Bash(python3 -c \"import docx; print\\('python-docx available'\\)\")",
+      "Bash(python -c \"import docx; print\\('python-docx available'\\)\")",
+      "Bash(python md2docx.py)",
+      "Bash(sed -i '131s/^.*$/\\\\\\\\t\\\\\\\\tfloat phase_error = FFT_Calc_Phase_Diff\\(ADC_ref, ADC_fb, \\\\&measured_freq\\);/' main.c)",
+      "Bash(sed -i '134s/^.*$/\\\\\\\\t\\\\\\\\tfloat final_freq = measured_freq + delta_f;/' main.c)",
+      "Bash(sed -i '135s/^.*$/\\\\\\\\t\\\\\\\\tif\\(measured_freq > 0.0f\\)/' main.c)",
+      "Bash(sed -i '135a\\\\\\\\t\\\\\\\\t{' main.c)",
+      "Bash(sed -i '136a\\\\\\\\t\\\\\\\\t\\\\\\\\tAD9910_FreWrite\\(final_freq\\);' main.c)",
+      "Bash(python -c ' *)",
+      "Bash(python)",
+      "Bash(python fix_main.py)",
+      "Bash(python fix2.py)",
+      "Bash(sqlite3 \"C:\\\\Users\\\\XZW20\\\\.cc-switch\\\\cc-switch.db\" \".tables\")",
+      "Bash(python3 *)",
+      "Bash(python *)",
+      "Bash(taskkill /f /im \"cc-switch.exe\")"
+    ]
+  }
+}

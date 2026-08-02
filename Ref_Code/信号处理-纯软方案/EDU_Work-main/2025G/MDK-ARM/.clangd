@@ -1,0 +1,5 @@
+CompileFlags:
+  CompilationDatabase: c:\Users\47306\Downloads\EDU_Work-main\EDU_Work-main\2025G\MDK-ARM\out\2025G\2025G
+  Add:
+    - -include
+    - c:\Users\47306\Downloads\EDU_Work-main\EDU_Work-main\2025G\MDK-ARM\out\2025G\2025G\compile_macros.h

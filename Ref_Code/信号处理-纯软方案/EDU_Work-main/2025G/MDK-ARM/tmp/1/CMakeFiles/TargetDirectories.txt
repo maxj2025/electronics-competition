@@ -1,0 +1,9 @@
+C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/1/CMakeFiles/database.dir
+C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/1/CMakeFiles/2025G+2025G.dir
+C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/1/CMakeFiles/Group_Application_MDK-ARM.dir
+C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/1/CMakeFiles/Group_Application_User_Core.dir
+C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/1/CMakeFiles/Group_Application_User_App.dir
+C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/1/CMakeFiles/Group_Drivers_STM32H7xx_HAL_Driver.dir
+C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/1/CMakeFiles/Group_Drivers_CMSIS.dir
+C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/1/CMakeFiles/edit_cache.dir
+C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/1/CMakeFiles/rebuild_cache.dir

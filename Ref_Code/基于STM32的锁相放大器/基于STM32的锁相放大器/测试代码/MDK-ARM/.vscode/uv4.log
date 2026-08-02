@@ -1,0 +1,13 @@
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\keil\ARM\ARMCC\Bin'
+Build target 'STM32F407_Hal_5_DualADC'
+compiling main.c...
+../Core/Inc/main.h(32): warning:  #47-D: incompatible redefinition of macro "__FPU_PRESENT"  (declared at line 51 of "../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h")
+  #define __FPU_PRESENT 1
+.\Systrem\fft.h(12): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Src/main.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=17814 RO-data=121914 RW-data=52 ZI-data=34740  
+FromELF: creating hex file...
+"STM32F407_Hal_5_DualADC\STM32F407_Hal_5_DualADC.axf" - 0 Error(s), 2 Warning(s).
+Build Time Elapsed:  00:00:02

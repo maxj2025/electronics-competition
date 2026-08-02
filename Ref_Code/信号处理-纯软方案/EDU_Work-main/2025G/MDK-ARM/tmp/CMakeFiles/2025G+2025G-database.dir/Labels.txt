@@ -1,0 +1,11 @@
+# Target labels
+ 2025G+2025G
+# Source files and their labels
+C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/CMakeFiles/2025G+2025G-database
+C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/CMakeFiles/2025G+2025G-database.rule
+C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/2025G+2025G/src/2025G+2025G-stamp/2025G+2025G-database.rule
+C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/2025G+2025G/src/2025G+2025G-stamp/2025G+2025G-configure.rule
+C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/2025G+2025G/src/2025G+2025G-stamp/2025G+2025G-patch.rule
+C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/2025G+2025G/src/2025G+2025G-stamp/2025G+2025G-update.rule
+C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/2025G+2025G/src/2025G+2025G-stamp/2025G+2025G-download.rule
+C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/2025G+2025G/src/2025G+2025G-stamp/2025G+2025G-mkdir.rule

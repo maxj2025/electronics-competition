@@ -1,0 +1,93 @@
+h7_sdram\fft_app.o: ..\app\fft_app.c
+h7_sdram\fft_app.o: ..\app\fft_app.h
+h7_sdram\fft_app.o: ../bsp/bspsysteam.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h
+h7_sdram\fft_app.o: ../Core/Inc/stm32h7xx_hal_conf.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h
+h7_sdram\fft_app.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h
+h7_sdram\fft_app.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h723xx.h
+h7_sdram\fft_app.o: ../Drivers/CMSIS/Include/core_cm7.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\ARMCC\Bin\..\include\stdint.h
+h7_sdram\fft_app.o: ../Drivers/CMSIS/Include/cmsis_version.h
+h7_sdram\fft_app.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+h7_sdram\fft_app.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+h7_sdram\fft_app.o: ../Drivers/CMSIS/Include/mpu_armv7.h
+h7_sdram\fft_app.o: ../Drivers/CMSIS/Device/ST/STM32H7xx/Include/system_stm32h7xx.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\ARMCC\Bin\..\include\stddef.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\ARMCC\Bin\..\include\math.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc_ex.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_gpio_ex.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dma_ex.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_mdma.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_exti.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_cortex.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_adc.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc_ex.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dac.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_dac_ex.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_flash_ex.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_hsem.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c_ex.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_ospi.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_sdram.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_fmc.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h
+h7_sdram\fft_app.o: ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h
+h7_sdram\fft_app.o: ../Core/Inc/main.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\ARMCC\Bin\..\include\stdio.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\ARMCC\Bin\..\include\string.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+h7_sdram\fft_app.o: ../Core/Inc/fmc.h
+h7_sdram\fft_app.o: ../Core/Inc/gpio.h
+h7_sdram\fft_app.o: ../Core/Inc/octospi.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\ARMCC\Bin\..\include\stdarg.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\CMSIS-DSP\1.16.2\Include\arm_math.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\CMSIS-DSP\1.16.2\Include\arm_math_types.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\ARMCC\Bin\..\include\float.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\ARMCC\Bin\..\include\limits.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\CMSIS-DSP\1.16.2\Include\arm_math_memory.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\CMSIS-DSP\1.16.2\Include\dsp/none.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\CMSIS-DSP\1.16.2\Include\dsp/utils.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\CMSIS-DSP\1.16.2\Include\dsp/basic_math_functions.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\CMSIS-DSP\1.16.2\Include\dsp/interpolation_functions.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\CMSIS-DSP\1.16.2\Include\dsp/bayes_functions.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\CMSIS-DSP\1.16.2\Include\dsp/statistics_functions.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\CMSIS-DSP\1.16.2\Include\dsp/fast_math_functions.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\CMSIS-DSP\1.16.2\Include\dsp/matrix_functions.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\CMSIS-DSP\1.16.2\Include\dsp/complex_math_functions.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\CMSIS-DSP\1.16.2\Include\dsp/controller_functions.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\CMSIS-DSP\1.16.2\Include\dsp/support_functions.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\CMSIS-DSP\1.16.2\Include\dsp/distance_functions.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\CMSIS-DSP\1.16.2\Include\dsp/svm_functions.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\CMSIS-DSP\1.16.2\Include\dsp/svm_defines.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\CMSIS-DSP\1.16.2\Include\dsp/transform_functions.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\CMSIS-DSP\1.16.2\Include\dsp/filtering_functions.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\CMSIS-DSP\1.16.2\Include\dsp/quaternion_math_functions.h
+h7_sdram\fft_app.o: D:\Keil5 MDK\ARM\CMSIS-DSP\1.16.2\Include\dsp/window_functions.h
+h7_sdram\fft_app.o: ../Core/Inc/usart.h
+h7_sdram\fft_app.o: ../Core/Inc/adc.h
+h7_sdram\fft_app.o: ../bsp/bsp_sdram.h
+h7_sdram\fft_app.o: ../bsp/bspsysteam.h
+h7_sdram\fft_app.o: ../bsp/bsp.h
+h7_sdram\fft_app.o: ../bsp/qspi.h
+h7_sdram\fft_app.o: ../bsp/norflash.h
+h7_sdram\fft_app.o: ../bsp/test_demo.h
+h7_sdram\fft_app.o: ../app/scheduler.h
+h7_sdram\fft_app.o: ../app/usart_app.h
+h7_sdram\fft_app.o: ../app/adc_app.h
+h7_sdram\fft_app.o: ../app/blue_app.h
+h7_sdram\fft_app.o: ../app/fft_app.h
+h7_sdram\fft_app.o: ../app/audio_fir.h
+h7_sdram\fft_app.o: ../app/audio_iir.h

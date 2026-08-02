@@ -1,0 +1,10 @@
+solution:
+  created-by: uv2csolution@1.6.0
+  created-for: CMSIS-Toolbox@2.7.0
+  compiler: AC6
+  target-types:
+    - type: STM32F407_Hal_5_DualADC
+      device: STM32F407VETx
+      optimize: debug
+  projects:
+    - project: STM32F407_Hal_5_DualADC.cproject.yml

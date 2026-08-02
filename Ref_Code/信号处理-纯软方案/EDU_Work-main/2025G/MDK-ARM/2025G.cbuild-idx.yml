@@ -1,0 +1,19 @@
+build-idx:
+  generated-by: csolution version 2.14.1+p9-g859cb6c9
+  csolution: 2025G.csolution.yml
+  cbuild-run: out/2025G+2025G.cbuild-run.yml
+  tmpdir: tmp
+  cprojects:
+    - cproject: 2025G.cproject.yml
+  cbuilds:
+    - cbuild: out/2025G/2025G/2025G+2025G.cbuild.yml
+      project: 2025G
+      configuration: +2025G
+      messages:
+        info:
+          - 2025G.cbuild-pack.yml - file is already up-to-date
+          - 2025G+2025G.cbuild-run.yml - file generated successfully
+          - 2025G+2025G.cbuild.yml - file is already up-to-date
+      packs-unused:
+        - pack: ARM::CMSIS-DSP@1.16.2
+        - pack: ARM::CMSIS-NN@4.1.0

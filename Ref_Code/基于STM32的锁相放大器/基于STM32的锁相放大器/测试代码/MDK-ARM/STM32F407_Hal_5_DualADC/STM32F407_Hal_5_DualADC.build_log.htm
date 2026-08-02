@@ -1,0 +1,170 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: l 473065664@qq.com, l, LIC=WHYH9-46HJH-PCZJ8-3X1WJ-I3FTB-RSMEB
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.36.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.16
+Assembler:       Armasm.exe V6.16
+Linker/Locator:  ArmLink.exe V6.16
+Library Manager: ArmAr.exe V6.16
+Hex Converter:   FromElf.exe V6.16
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      CMSIS_AGDI.dll V1.33.0.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+D:\Desktop_Floder\基于STM32的锁相放大器\基于STM32的锁相放大器\测试代码\MDK-ARM\STM32F407_Hal_5_DualADC.uvprojx
+Project File Date:  07/10/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.16', folder: 'D:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'STM32F407_Hal_5_DualADC'
+assembling startup_stm32f407xx.s...
+../Core/Src/dma.c(22): warning: In file included from...
+../Core/Inc\dma.h(29): warning: In file included from...
+../Core/Inc/main.h(32): warning: '__FPU_PRESENT' macro redefined [-Wmacro-redefined]
+#define __FPU_PRESENT 1
+        ^
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f407xx.h(51): note: previous definition is here
+#define __FPU_PRESENT             1U       /*!< FPU present                                   */
+        ^
+1 warning generated.
+compiling dma.c...
+../Core/Src/stm32f4xx_hal_msp.c(22): warning: In file included from...
+../Core/Inc\main.h(32): warning: '__FPU_PRESENT' macro redefined [-Wmacro-redefined]
+#define __FPU_PRESENT 1
+        ^
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f407xx.h(51): note: previous definition is here
+#define __FPU_PRESENT             1U       /*!< FPU present                                   */
+        ^
+1 warning generated.
+compiling stm32f4xx_hal_msp.c...
+../Core/Src/main.c(20): warning: In file included from...
+../Core/Inc\main.h(32): warning: '__FPU_PRESENT' macro redefined [-Wmacro-redefined]
+#define __FPU_PRESENT 1
+        ^
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f407xx.h(51): note: previous definition is here
+#define __FPU_PRESENT             1U       /*!< FPU present                                   */
+        ^
+1 warning generated.
+compiling main.c...
+../Core/Src/gpio.c(22): warning: In file included from...
+../Core/Inc\gpio.h(29): warning: In file included from...
+../Core/Inc/main.h(32): warning: '__FPU_PRESENT' macro redefined [-Wmacro-redefined]
+#define __FPU_PRESENT 1
+        ^
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f407xx.h(51): note: previous definition is here
+#define __FPU_PRESENT             1U       /*!< FPU present                                   */
+        ^
+1 warning generated.
+compiling gpio.c...
+compiling system_stm32f4xx.c...
+compiling OLED.c...
+compiling stm32f4xx_hal_rcc_ex.c...
+Systrem/fft.c(1): warning: In file included from...
+../Core/Inc\main.h(32): warning: '__FPU_PRESENT' macro redefined [-Wmacro-redefined]
+#define __FPU_PRESENT 1
+        ^
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f407xx.h(51): note: previous definition is here
+#define __FPU_PRESENT             1U       /*!< FPU present                                   */
+        ^
+Systrem/fft.c(135): warning: implicitly declaring library function 'abs' with type 'int (int)' [-Wimplicit-function-declaration]
+        if (abs(fundamental_idx1 - fundamental_idx2) > 1)
+            ^
+Systrem/fft.c(135): note: include the header <stdlib.h> or explicitly provide a declaration for 'abs'
+2 warnings generated.
+compiling fft.c...
+compiling stm32f4xx_hal_flash.c...
+compiling stm32f4xx_hal_pwr_ex.c...
+compiling stm32f4xx_ll_adc.c...
+Systrem/Lockin_Amplifier.c(1): warning: In file included from...
+./Systrem/Lockin_Amplifier.h(4): warning: In file included from...
+../Core/Inc\main.h(32): warning: '__FPU_PRESENT' macro redefined [-Wmacro-redefined]
+#define __FPU_PRESENT 1
+        ^
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f407xx.h(51): note: previous definition is here
+#define __FPU_PRESENT             1U       /*!< FPU present                                   */
+        ^
+1 warning generated.
+compiling Lockin_Amplifier.c...
+compiling stm32f4xx_hal_dma_ex.c...
+compiling stm32f4xx_hal_adc.c...
+../Core/Src/tim.c(21): warning: In file included from...
+../Core/Inc\tim.h(29): warning: In file included from...
+../Core/Inc/main.h(32): warning: '__FPU_PRESENT' macro redefined [-Wmacro-redefined]
+#define __FPU_PRESENT 1
+        ^
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f407xx.h(51): note: previous definition is here
+#define __FPU_PRESENT             1U       /*!< FPU present                                   */
+        ^
+1 warning generated.
+compiling tim.c...
+compiling stm32f4xx_hal_adc_ex.c...
+compiling stm32f4xx_hal_gpio.c...
+../Core/Src/adc.c(21): warning: In file included from...
+../Core/Inc\main.h(32): warning: '__FPU_PRESENT' macro redefined [-Wmacro-redefined]
+#define __FPU_PRESENT 1
+        ^
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f407xx.h(51): note: previous definition is here
+#define __FPU_PRESENT             1U       /*!< FPU present                                   */
+        ^
+1 warning generated.
+compiling adc.c...
+compiling stm32f4xx_hal_flash_ramfunc.c...
+compiling stm32f4xx_hal_flash_ex.c...
+compiling stm32f4xx_hal.c...
+compiling Delay.c...
+compiling stm32f4xx_hal_pwr.c...
+../Core/Src/stm32f4xx_it.c(21): warning: In file included from...
+../Core/Inc\main.h(32): warning: '__FPU_PRESENT' macro redefined [-Wmacro-redefined]
+#define __FPU_PRESENT 1
+        ^
+../Drivers/CMSIS/Device/ST/STM32F4xx/Include\stm32f407xx.h(51): note: previous definition is here
+#define __FPU_PRESENT             1U       /*!< FPU present                                   */
+        ^
+1 warning generated.
+compiling stm32f4xx_it.c...
+compiling stm32f4xx_hal_exti.c...
+compiling stm32f4xx_hal_cortex.c...
+compiling stm32f4xx_hal_rcc.c...
+compiling stm32f4xx_hal_dma.c...
+compiling stm32f4xx_hal_tim_ex.c...
+compiling stm32f4xx_hal_tim.c...
+linking...
+Program Size: Code=12810 RO-data=4014 RW-data=4108 ZI-data=10236  
+FromELF: creating hex file...
+"STM32F407_Hal_5_DualADC\STM32F407_Hal_5_DualADC.axf" - 0 Error(s), 10 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.3.1.1.pack
+                Keil.STM32F4xx_DFP.3.1.1
+                STMicroelectronics STM32F4 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_STM32F407_Hal_5_DualADC
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

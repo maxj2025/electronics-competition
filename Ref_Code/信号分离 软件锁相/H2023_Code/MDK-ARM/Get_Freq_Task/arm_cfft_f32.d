@@ -1,0 +1,10 @@
+get_freq_task\arm_cfft_f32.o: ..\TransformFunctions\arm_cfft_f32.c
+get_freq_task\arm_cfft_f32.o: ..\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.1\Drivers\CMSIS\DSP\Include\arm_math.h
+get_freq_task\arm_cfft_f32.o: ../Drivers/CMSIS/Include/core_cm4.h
+get_freq_task\arm_cfft_f32.o: D:\KEIL5.5.38\all\ARM\ARMCC\Bin\..\include\stdint.h
+get_freq_task\arm_cfft_f32.o: ../Drivers/CMSIS/Include/cmsis_version.h
+get_freq_task\arm_cfft_f32.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+get_freq_task\arm_cfft_f32.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+get_freq_task\arm_cfft_f32.o: D:\KEIL5.5.38\all\ARM\ARMCC\Bin\..\include\string.h
+get_freq_task\arm_cfft_f32.o: D:\KEIL5.5.38\all\ARM\ARMCC\Bin\..\include\math.h
+get_freq_task\arm_cfft_f32.o: ..\..\..\..\..\STM32Cube\Repository\STM32Cube_FW_F4_V1.27.1\Drivers\CMSIS\DSP\Include\arm_common_tables.h

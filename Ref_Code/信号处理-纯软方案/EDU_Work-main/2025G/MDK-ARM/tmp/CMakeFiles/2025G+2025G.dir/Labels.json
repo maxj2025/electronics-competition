@@ -1,0 +1,52 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/CMakeFiles/2025G+2025G"
+		},
+		{
+			"file" : "C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/CMakeFiles/2025G+2025G.rule"
+		},
+		{
+			"file" : "C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/CMakeFiles/2025G+2025G-complete.rule"
+		},
+		{
+			"file" : "C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/2025G+2025G/src/2025G+2025G-stamp/2025G+2025G-build.rule"
+		},
+		{
+			"file" : "C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/2025G+2025G/src/2025G+2025G-stamp/2025G+2025G-configure.rule"
+		},
+		{
+			"file" : "C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/2025G+2025G/src/2025G+2025G-stamp/2025G+2025G-database.rule"
+		},
+		{
+			"file" : "C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/2025G+2025G/src/2025G+2025G-stamp/2025G+2025G-download.rule"
+		},
+		{
+			"file" : "C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/2025G+2025G/src/2025G+2025G-stamp/2025G+2025G-executes.rule"
+		},
+		{
+			"file" : "C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/2025G+2025G/src/2025G+2025G-stamp/2025G+2025G-install.rule"
+		},
+		{
+			"file" : "C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/2025G+2025G/src/2025G+2025G-stamp/2025G+2025G-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/2025G+2025G/src/2025G+2025G-stamp/2025G+2025G-patch.rule"
+		},
+		{
+			"file" : "C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/2025G+2025G/src/2025G+2025G-stamp/2025G+2025G-test.rule"
+		},
+		{
+			"file" : "C:/Users/47306/Downloads/EDU_Work-main/EDU_Work-main/2025G/MDK-ARM/tmp/2025G+2025G/src/2025G+2025G-stamp/2025G+2025G-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"2025G+2025G"
+		],
+		"name" : "2025G+2025G"
+	}
+}
